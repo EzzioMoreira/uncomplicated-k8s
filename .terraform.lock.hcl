@@ -5,6 +5,7 @@ provider "registry.terraform.io/leodotcloud/virtualbox" {
   version     = "0.0.3"
   constraints = "0.0.3"
   hashes = [
+    "h1:0dALq75W853ntKBpLvZ5ntgjms0ciR2bTwm2Z4blWXM=",
     "h1:z4HIlUnTcLKu4l3RB95FB2juWfyKR0A2RUplltLjAsQ=",
     "zh:37e1bed6b8c5086a30f501de24922c87bf7ea3bd3c49510beabda87b41c545c8",
     "zh:43caa62d6f35a4ba49fda825c698ac677415450f98dd5149dc37d5b8df55ec13",

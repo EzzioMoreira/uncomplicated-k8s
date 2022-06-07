@@ -14,5 +14,3 @@ jobs:
         with:
           project-url: https://github.com/orgs/EzzioMoreira/projects/2
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          labeled: bug, needs-triage
-          label-operator: OR

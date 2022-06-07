@@ -13,6 +13,6 @@ jobs:
       - uses: actions/add-to-project@main
         with:
           project-url: https://github.com/orgs/EzzioMoreira/projects/2
-          token: ${{ secrets.TOKEN }}
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: bug, needs-triage
           label-operator: OR

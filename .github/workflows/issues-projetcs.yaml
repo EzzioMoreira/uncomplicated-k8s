@@ -13,4 +13,6 @@ jobs:
       - uses: actions/add-to-project@v1
         with:
           project-url: https://github.com/users/EzzioMoreira/projects/2
+          
+        secret:
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
